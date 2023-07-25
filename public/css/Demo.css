@@ -1,0 +1,15 @@
+.BorderDemo{
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 10px;
+}
+
+
+.ListaDemo{
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 10px;
+    height: 91%;
+}

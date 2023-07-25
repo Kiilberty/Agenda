@@ -1,0 +1,23 @@
+.Pagina{
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+    
+}
+
+.ItemMenu{
+    width: 100% !important;
+    margin:0 !important;
+    
+}
+
+.three.wide.column{
+    padding: 2px !important;
+}
+
+
+.item{
+ margin-top: 1% !important;
+    
+
+}

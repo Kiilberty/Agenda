@@ -1,0 +1,5 @@
+{
+    "name": "Agenda",
+    "version":2,
+    "build":"node app.js"
+}

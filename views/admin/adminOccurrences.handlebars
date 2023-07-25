@@ -1,0 +1,30 @@
+<h2>Lista de Demonstrações: </h2>
+
+{{#each Demo}}
+    <div class="input-group">
+            <div class="input-box">
+                <label for="name">Nome:</label>
+                <input id="name" type="text" name="name" placeholder="Informe seu Nome" value={{Nome}}  required>
+            </div>
+            <div class="input-box">
+                <label for="contact">Numero para contato:</label>
+                <input id="contact" type="text" name="contact" placeholder="Informe sua Contato" value={{Numero}}  required>
+            </div>
+            <div class="input-box">
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" name="email" placeholder="Email" value={{Email}} required>
+            </div>
+            <div class="input-box">
+                <label for="email">Atividade:</label>
+                <select name="business">
+                    <option>{{Atividade}}</option>
+                   
+                </select>
+            </div>
+            <div class="msg-input">
+                <textarea name="demo-msg" id="demo-msg" cols="30" rows="10">{{Mensagem}}</textarea>
+            </div>
+        </div>
+{{else}}
+    <h4 class="mt-3">Nenhuma Ocorrência Registrada</h4>
+{{/each}}

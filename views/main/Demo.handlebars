@@ -1,0 +1,56 @@
+<nav class="ui secondary menu" >
+<a href="/Home" class="item right menu"  >Voltar</a>
+</nav>
+
+
+
+
+  <h1>Lista de Demonstrações : </h1>
+{{#each Demo}}
+    <div class="ui items" >
+      <div class="item">
+          <div class="ui form" >
+                <div class="inline fields">
+                  <div class="field"> 
+                    <label>Nome:</label>
+                    <input type="text" value={{Nome}} /></div>
+                  <div class="field">
+                    <label>Telefone:</label>
+                    <input type="number" value={{Numero}} />
+                    </div>
+                  </div> 
+           
+             <div class="field" ><textarea rows="6" cols="200" >CGC : {{Cgc}}, Sobrenome :{{Sobrenome}}, Atividade : {{Atividade}}, Mensagem:{{Mensagem}}</textarea></div>
+             <div class="ui grid" >
+                  <div class="fourteen wide column" >
+
+                  </div>
+
+                  <div class="two wide column" >
+                  <div class="field"><button class="ui secondary button" >Iniciar</button></div>
+                  </div>
+             </div>
+             </div>
+             <hr>
+             
+             
+             </div>
+         
+           
+           
+           
+           
+           
+           </div>
+      </div>
+
+       {{else}}
+     <h1>Nenhuma Demonstração Registrada!</h1>
+    {{/each}}
+
+
+
+</div>
+
+
+

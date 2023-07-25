@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+}
+
+.form{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: white;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+}
+.form-body{
+    width: 100%;
+    padding: 0.8rem;
+}
+
+.form-header {
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: orange;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.return-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.continue-btn button {
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    background-color: orange;
+    padding: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-btn button:hover {
+    background-image: linear-gradient(135deg, #ED765E 0%, #FEA858 100%);
+}
+
+.continue-btn button a {
+    text-decoration: none;    
+    font-weight: 500;
+    color: #fff;
+}
